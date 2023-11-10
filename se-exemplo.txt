@@ -1,0 +1,68 @@
+//EXEMPLO DE "SE" e "SE NÃO"
+
+if( ) {
+
+}
+
+//----------------- Idade-------------------------
+var idade = 20;
+
+if (idade <= 18) {
+
+    alert("Bem vindo a Fase Adulta");
+}
+
+else {
+
+    alert("Aproveite enquanto pode!");
+}
+
+
+//---------------"SEXO" e && "Idade"-----------  AS 2 VARIAVEIS PRECISAM SER VERDADEIRAS
+
+var idade = 20;
+var sexo = "F";
+
+if(idade >= 18 && sexo == "F"){
+
+    alert("etec");
+}
+
+else {
+
+    alert("Comendador");
+}
+
+
+//--------------"SEXO" ou || "IDADE"------------------ APENAS 1 precisa ser VERDADEIRO
+
+var idade = 20;
+var sexo = "F";
+
+if(idade >= 18 || sexo == "F"){
+
+    alert("etec");
+}
+
+else {
+
+    alert("Comendador");
+}
+
+alert("João");
+
+
+//--------------------------------------
+
+if(X > Y && A == B || c > d){
+
+    alert("ETEC");
+}
+else if (x < y && a)
+{
+    alert ("Comendador");
+}
+
+
+
+
